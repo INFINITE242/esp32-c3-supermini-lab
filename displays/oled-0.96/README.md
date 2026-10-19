@@ -59,3 +59,24 @@ Store actual photographs here:
 
 ## Safety
 GPIO8 and GPIO9 are boot-strapping pins on the ESP32-C3. Avoid external circuits that force inappropriate levels during startup.
+## Test Results and Photos
+
+### Test 1 — OLED Display Test
+
+Verified that the OLED displays the test message and I2C address `0x3C`.
+
+![Test 1 - OLED display](photos/test-1/oled-test.jpeg)
+
+Raspberry Pi USB connection:
+
+![Test 1 - USB connection](photos/test-1/usb-connected-to-pi.jpeg)
+
+### Test 2 — Name Display Test
+
+Verified that the OLED displays the greeting `HELLO! TriTro`.
+
+![Test 2 - Name display](photos/test-2/oled-name-test.jpeg)
+
+Raspberry Pi USB connection:
+
+![Test 2 - USB connection](photos/test-2/usb-connected-to-pi.jpeg)
