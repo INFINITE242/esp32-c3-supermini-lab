@@ -1,3 +1,38 @@
+# ESP32-C3 SuperMini — OLED Display Project
+
+## 1. Board Details
+
+- **Board:** ESP32-C3 SuperMini
+- **Microcontroller:** ESP32-C3
+- **Architecture:** 32-bit RISC-V
+- **Wireless connectivity:** 2.4 GHz Wi-Fi and Bluetooth Low Energy (BLE)
+- **Development environment:** Arduino IDE
+- **Board package:** ESP32 by Espressif Systems
+- **USB connection:** USB connection to the Raspberry Pi for programming and serial communication
+
+## 2. OLED Display Details
+
+- **Display:** 0.96-inch OLED
+- **Resolution:** 128 × 64 pixels
+- **Interface:** I²C
+- **Controller:** SSD1306-compatible (assumed)
+- **I²C address:** `0x3C`
+- **Operating voltage:** 3.3 V
+
+### OLED Wiring
+
+| OLED Pin | ESP32-C3 SuperMini |
+|---|---|
+| GND | GND |
+| VDD | 3V3 |
+| SCK / SCL | GPIO 9 |
+| SDA | GPIO 8 |
+
+**Important:** Connect the OLED to 3.3 V and verify the pin labels on your specific board before wiring.
+
+---
+
+
 # ESP32-C3 SuperMini — OLED Display Test
 
 ## Objective
