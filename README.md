@@ -18,7 +18,7 @@ Documentation, wiring guides, Arduino sketches, and hardware tests for the ESP32
 
 - [0.96-inch OLED](displays/oled-0.96/README.md) — wiring, test sketches, results, and photos.
 - **TFT Display** — planned; documentation will be added when the project is ready.
-
+- [1.8-inch SPI TFT (128x160)](displays/tft-1.8-spi/README.md) — Tested
 ## Working Setup
 
 - **Board:** ESP32-C3 SuperMini
