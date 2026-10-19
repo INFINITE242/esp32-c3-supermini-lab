@@ -5,6 +5,37 @@
 The ESP32-C3 SuperMini is a compact development board based on the Espressif ESP32-C3 RISC-V microcontroller. It supports 2.4 GHz Wi-Fi, Bluetooth Low Energy (BLE), GPIO, I²C, SPI, UART, PWM, and ADC.
 
 ## 2. Arduino IDE Setup
+## 2. ESP32-C3 SuperMini Pin Configuration
+
+The following pinout image identifies the GPIO pins, power connections, and common peripheral functions shown for this board.
+
+![ESP32-C3 SuperMini pin configuration](images/esp32-c3-supermini-pinout.jpg)
+
+### Pin Mapping
+
+| Board Pin / Function | GPIO | Common Function |
+|---|---:|---|
+| MISO | GPIO5 | SPI MISO |
+| MOSI | GPIO6 | SPI MOSI |
+| SS | GPIO7 | SPI chip select |
+| SDA | GPIO8 | I²C data |
+| SCL | GPIO9 | I²C clock |
+| GPIO10 | GPIO10 | General-purpose I/O |
+| RX | GPIO20 | UART receive |
+| TX | GPIO21 | UART transmit |
+| SCK | GPIO4 | SPI clock |
+| GPIO3 | GPIO3 | General-purpose I/O / ADC-capable |
+| GPIO2 | GPIO2 | General-purpose I/O / ADC-capable |
+| GPIO1 | GPIO1 | General-purpose I/O / ADC-capable |
+| GPIO0 | GPIO0 | General-purpose I/O / ADC-capable |
+
+### Power Pins
+
+- **5V:** 5 V input/output according to board power circuitry.
+- **GND:** Ground.
+- **3V3:** 3.3 V supply.
+
+**Important:** Pin labels and power behavior can vary between board revisions. Check the physical board markings and its documentation before wiring. GPIO pins use 3.3 V logic; do not apply 5 V directly to a GPIO.
 
 ### Board Package
 
